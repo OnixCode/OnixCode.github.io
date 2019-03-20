@@ -56,23 +56,30 @@ main{
   display:none;
 }
 @media only screen and (max-width: 960px){
+  header{
+    position: relative;
+  }
   main{
     max-width: 90%;
   }
   nav{
+    position: absolute;
     display: none;
     background: #000;
-  }
-  #toggleMenu{
-    display: block;
-    float: right;
-    line-height: 50px;
+    top: 50px;
+    left: 0;
+    right: 0;
   }
   nav ul li a,
   nav ul li a:link,
   nav ul li a:visited{
     display: block;
     border-bottom: 1px solid #777;
+  }
+  #toggleMenu{
+    display: block;
+    float: right;
+    line-height: 50px;
   }
 }
 
