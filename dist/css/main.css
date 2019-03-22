@@ -17,6 +17,14 @@ header .logo {
   line-height: 50px;
   font-weight: bold; }
 
+main {
+  /* Uses a margin to center the page */
+  margin: 0 auto;
+  /* Setting the width of the content*/
+  width: 960px;
+  /* Preventing max screen width from exceeding smaller screen sizes*/
+  max-width: 100%; }
+
 nav {
   float: right; }
 
@@ -40,18 +48,20 @@ nav ul li a:visited {
 nav ul li a:hover {
   background: #444; }
 
-main {
-  /* Uses a margin to center the page */
-  margin: 0 auto;
-  /* Setting the width of the content*/
-  width: 960px;
-  /* Preventing max screen width from exceeding smaller screen sizes*/
-  max-width: 100%; }
-
 .avatar {
   border-radius: 50%;
   float: left;
   margin-right: 1em; }
+
+.flex-container {
+  display: flex; }
+
+.resume-h2 {
+  margin-top: 40px;
+  margin-bottom: 15px; }
+
+#resume-h1 {
+  margin-bottom: 0px; }
 
 #toggleMenu {
   display: none; }
@@ -59,8 +69,10 @@ main {
 @media only screen and (max-width: 960px) {
   header {
     position: relative; }
+
   main {
     max-width: 90%; }
+
   nav {
     position: absolute;
     display: none;
@@ -68,12 +80,16 @@ main {
     top: 50px;
     left: 0;
     right: 0; }
+
   nav ul li a,
   nav ul li a:link,
   nav ul li a:visited {
     display: block;
     border-bottom: 1px solid #777; }
+
   #toggleMenu {
     display: block;
     float: right;
     line-height: 50px; } }
+
+/*# sourceMappingURL=main.css.map */
