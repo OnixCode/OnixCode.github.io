@@ -7,6 +7,22 @@ body {
   padding: 0;
   margin: 0; }
 
+h3 {
+  margin-top: 5;
+  margin-bottom: 0; }
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+section p {
+  margin-top: 0;
+  margin-bottom: 5px; }
+
+section ul {
+  margin-top: 0;
+  margin-bottom: 30px; }
+
 header {
   height: 50px;
   background: #078;
@@ -48,20 +64,56 @@ nav ul li a:visited {
 nav ul li a:hover {
   background: #444; }
 
+th {
+  text-align: left;
+  box-sizing: border-box;
+  font-weight: normal;
+  font-style: italic;
+  padding-right: 1.5rem; }
+
+td {
+  text-align: left;
+  box-sizing: border-box; }
+
 .avatar {
   border-radius: 50%;
   float: left;
   margin-right: 1em; }
 
-.flex-container {
-  display: flex; }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.cleft {
+  float: left;
+  text-align: left;
+  width: 33%;
+  margin-left: 17%;
+  margin-top: 0px;
+  box-sizing: border-box; }
+
+.cright {
+  float: right;
+  text-align: left;
+  width: 33%;
+  margin-right: 17%;
+  margin-top: 0px;
+  box-sizing: border-box; }
 
 .resume-h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+#intro {
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 15px; }
 
 #resume-h1 {
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  text-align: center; }
 
 #toggleMenu {
   display: none; }

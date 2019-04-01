@@ -17,16 +17,16 @@
       <a id="toggleMenu">Menu</a>
       <nav>
         <ul>
-          <li><a href="index.html"></a>Home</li>
-          <li><a href="resume.html"></a>Resume</li>
-          <li><a href="contact.html"></a>Contact</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
   <main>
     <section>
-      <h1 id="resume-h1" style="text-align:center";>JOHN F. FALZONE</h1>
+      <h1 id="resume-h1">JOHN F. FALZONE</h1>
       <div style="text-align:center";>
         Chicago, IL &nbsp; &#x25cf; &nbsp; 607-229-8059 &nbsp; &#x25cf; &nbsp; jfalzone2005@yahoo.com &nbsp; &#x25cf; &nbsp;
         <a href="https://www.linkedin.com/in/jfalzone2005" target="_blank" rel="noopener">LinkedIn</a>
@@ -35,7 +35,7 @@
     </section>
 
     <section>
-      <h2 class="resume-h2" style="text-align:center";>Full Stack Web and Hybrid Mobile Applications Developer</h2 class="resume-h2" >
+      <h2 id="intro">Full Stack Web and Hybrid Mobile Applications Developer</h2>
       <ul>
         <li>IT professional with wide-ranging, progressive experience in desktop support,
           systems and network administration, project management, integrated enterprise
@@ -50,43 +50,57 @@
       </ul>
     </section>
 
-    <section>
+    <section class="clearfix">
       <h3 style="text-align:center; margin-bottom: 0px";><em>Core Competencies</em></h3>
-      <div class="flex-container">
-        <!--<div style="flex-basis:25%"></div>-->
-        <div style="flex-basis:50%; padding:0px">
-          <ul>
+          <ul class="cleft">
             <li>Full Stack Development</li>
             <li>Strong Analytical Skills</li>
             <li>Prioritizes Tasks</li>
           </ul>
-        </div>
-        <div style="flex-basis:50%";>
-          <ul>
+          <ul class="cright">
             <li>Hybrid Mobile Development</li>
             <li>Savvy Problem Solver</li>
             <li>Strong Leadership Skills</li>
           </ul>
-        </div>
-      </div>
     </section>
 
     <section>
-      <h2 class="resume-h2" >CERTIFICATION/TECHNICAL SKILLS</h2 class="resume-h2" >
-      <ul>
-        <li>Windows XP/Vista/7/8.1/10, Microsoft Office Suite, Office 365,
-          Windows Server 2012</li>
-        <li>TrendMicro, QuickBooks Server Administration, Avaya IP Office 500,
-          Adobe Acrobat and Photoshop</li>
-        <li>LAN/WAN protocols, Hyper V, VoIP</li>
-        <li>iOS 8+, Mac OS X+</li>
-      </ul>
+      <h2 class="resume-h2" >CERTIFICATION/TECHNICAL SKILLS</h2>
+      <table>
+        <tr>
+          <th>Certifications:</th>
+          <td>Windows XP/Vista/7/8.1/10, Microsoft Office Suite, Office 365,
+          Windows Server 2012, Cisco Certified Network Associate Security (CCNA),
+          CCNA Routing and Switching, CompTIA A+</td>
+        </tr>
+        <tr>
+          <th>Platforms:</th>
+          <td>TrendMicro, QuickBooks Server Administration, Avaya IP Office 500,
+          Adobe Acrobat and Photoshop</td>
+        </tr>
+        <tr>
+          <th>Database:</th>
+          <td>LAN/WAN protocols, Hyper V, VoIP</td>
+        </tr>
+        <tr>
+          <th>Tools:</th>
+          <td>iOS 8+, Mac OS X+</td>
+        </tr>
+        <tr>
+          <th>Languages:</th>
+          <td>Agile Certified Scrum Master;Linux, Winows, Mac, LAMP, MEAN, NodeJS;
+          MySQL, MongoDB;VS Code, SSH, Gulp, Git;HTML, CSS, SASS, JavaScript, ES6, PHP, Bash, SQL</td>
+        </tr>
+      </table>
     </section>
 
     <section>
-      <h2 class="resume-h2" >PROFESSIONAL EXPERIENCE</h2 class="resume-h2" >
-      <h3>ROC Group-Chicago, Illinois</h3>
-      <h4>IT Manager, 2013-2018</h4>
+      <h2 class="resume-h2">PROFESSIONAL EXPERIENCE</h2>
+      <h3>ROC Group - Chicago, Illinois</h3>
+      <h4 class="clearfix">
+        <span style="float:left">IT Manager</span>
+        <span style="float:right">2013-2018</span>
+      </h4>
       <p>Managed the IT Department’s operational and strategic goals by planning
         projects, coordinating with executives and negotiating the allocation of
         resources. Analyzed, recommended, implemented and configured tools and
@@ -110,7 +124,10 @@
         <li>Configured conference bridges to run on in-house PBX, saving $18,000 annually.</li>
       </ul>
 
-      <h4>IT Coordinator, 2013</h4>
+      <h4 class="clearfix">
+          <span style="float:left">IT Coordinator</span>
+          <span style="float:right">2013</span>
+      </h4>
       <p>Managed the deployment, monitoring, maintenance and support of all IT systems,
         including servers, PCs, operating systems, hardware, software, Data and
         Telecommunications, wireless networks, PBX, desk phones, key card access, A/V and
@@ -127,8 +144,11 @@
         <li>Participated in the IT Department’s budget creation and review.</li>
       </ul>
 
-      <h3>COMCAST-Chicago, Illinois</h3>
-      <h4>Network Tech 1 XOC, 2012-2013</h4>
+      <h3>COMCAST - Chicago, Illinois</h3>
+      <h4 class="clearfix">
+        <span style="float:left">Network Tech 1 XOC</span>
+        <span style="float:right">2012-2013</span>
+      </h4>
       <p>Provided 7-days-a-week, 24-hours-a-day, 365-days-a-year escalation support for the
         XOC HFC Desk, Regional Engineering, Headends and other work partners across the
         division. Facilitated training of entry and mid-level technicians to better
@@ -140,8 +160,11 @@
         <li>Successfully completed and closed all assigned tickets within projected time windows.</li>
       </ul>
 
-      <h3>HURON CONSULTING GROUP-Chicago, Illinois</h3>
-      <h4>IT Support Technician, 2012</h4>
+      <h3>HURON CONSULTING GROUP - Chicago, Illinois</h3>
+      <h4 class="clearfix">
+          <span style="float:left">IT Support Technician</span>
+          <span style="float:right">2012</span>
+      </h4>
       <p>Resolved helpdesk tickets through telephone, walk-up desk, email and Lync 2010. Addressed
         user Lenovo and MAC hardware and software issues, BlackBerry and iPhone upgrades and connectivity,
         Cisco IP Phone connections and virus/malware removal. Ensured user data protection policy compliance
@@ -152,8 +175,11 @@
         <li>Increased the number of users meeting data protection compliance by 85%.</li>
       </ul>
 
-      <h3>LEARN CHARTER SCHOOL NETWORK-Chicago, Illinois</h3>
-      <h4>Hardware and Software Technician, 2011-2012</h4>
+      <h3>LEARN CHARTER SCHOOL NETWORK - Chicago, Illinois</h3>
+      <h4 class="clearfix">
+          <span style="float:left">Hardware and Software Technician</span>
+          <span style="float:right">2011-2012</span>
+      </h4>
       <p>Resolved support tickets and troubleshooted Dell hardware and software issues, printer and network device
         connectivity and internet access issues for over 300 end-users. Created, developed, imaged and deployed
         over 700 netbooks to support standardized MAP testing across five campuses.</p>
@@ -164,8 +190,11 @@
           software.</li>
       </ul>
 
-      <h3>UNIVERSITY OF ILLINOIS AT CHICAGO, URBAN HEALTH PROGRAM-Chicago, Illinois</h3>
-      <h4>Assistant Director, 2010</h4>
+      <h3>UNIVERSITY OF ILLINOIS AT CHICAGO, URBAN HEALTH PROGRAM - Chicago, Illinois</h3>
+      <h4 class="clearfix">
+          <span style="float:left">Assistant Director</span>
+          <span style="float:right">2010</span>
+      </h4>
       <p>Established recruitment and retention programs for underrepresented and underserved minority students by
         representing the College of Pharmacy directly to K-12 schools, community organizations, college fairs and
         other recruiting events. Counseled and advised prospective students on meeting admission requirements.
@@ -180,14 +209,9 @@
     </section>
 
     <section>
-      <h2 class="resume-h2" >EDUCATION</h2 class="resume-h2" >
-      <h3>CORNELL UNIVERSITY-Ithaca, New York</h3>
-      <p>B.S., City and Regional Planning/Urban and Regional Studies</p>
-      <ul>
-        <li>Cisco Certified Network Associate Security (CCNA)</li>
-        <li>CCNA Routing and Switching</li>
-        <li>CompTIA A+</li>
-      </ul>
+        <h2 class="resume-h2" >EDUCATION</h2 class="resume-h2" >
+        <h3>CORNELL UNIVERSITY - Ithaca, New York</h3>
+        <p>B.S., City and Regional Planning/Urban and Regional Studies</p>
     </section>
   </main>
 
