@@ -15,14 +15,6 @@ h4{
   margin-top: 10px;
   margin-bottom: 0;
 }
-section p{
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-section ul{
-  margin-top: 0;
-  margin-bottom: 30px;
-}
 header{
   height: 50px;
   background: #078;
@@ -64,6 +56,18 @@ nav ul li a:visited{
 nav ul li a:hover{
   background: #444;
 }
+section p{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+section ul{
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+td{
+  text-align: left;
+  box-sizing: border-box;
+}
 th{
   text-align: left;
   box-sizing: border-box;
@@ -71,10 +75,7 @@ th{
   font-style: italic;
   padding-right: 1.5rem;
 }
-td{
-  text-align: left;
-  box-sizing: border-box;
-}
+
 .avatar {
   border-radius: 50%;
   float: left;
@@ -118,6 +119,7 @@ td{
 #toggleMenu{
   display: none;
 }
+
 @media only screen and (max-width: 960px){
   header{
     position: relative;
