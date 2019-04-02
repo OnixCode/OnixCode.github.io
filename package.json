@@ -1,5 +1,5 @@
 {
-  "name": "OnixCode.github.io",
+  "name": "onixcode.github.io",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -14,6 +14,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify-es": "^1.0.4",
     "gulp-watch": "^5.0.1",
-    "merge-stream": "^1.0.1"
+    "lodash": ">=4.17.5",
+    "merge-stream": "^1.0.1",
+    "minimatch": ">=3.0.2"
   }
 }

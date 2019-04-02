@@ -1,51 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello, I am John Falzone</title>
+  <meta name="description" content="Contact form for users to submit questions and comments.">
+  <meta name="keywords" content="Contact, Questions, Comments">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+  <title>John Falzone</title>
 </head>
 
 <body>
   <header>
-    <span class="logo">My Website</span>
+    <span class="logo">Polymath's Playground</span>
     <a id="toggleMenu">Menu</a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-
-
-    <form class="contact-form" action="https://formspree.io/OnixCode@mailinator.com" method="POST">
-      <h1>Send me an email.</h1>
-      <input type="hidden" name="_next" value="//OnixCode.github.io/thanks.html">
+    <form action="https://formspree.io/21jroc@gmail.com" method="POST">
       <div>
         <label for="name">Name</label>
         <input id="name" type="text" name="name">
       </div>
-
       <div>
         <label for="email">Email</label>
         <input id="email" type="email" name="_replyto">
       </div>
-
       <div>
-        <label for="message">Messsage</label>
+        <label for="message">Message</label>
         <textarea id="message" name="message"></textarea>
       </div>
-
       <div>
-        <input type="hidden" name="_subject" value="New submission!">
+        <input type="hidden" name="_subject" value="New Submission!">
       </div>
-
+      <div>
+        <input type="hidden" name="_next" value="//OnixCode.github.io/thanks.html">
+      </div>
+      <div>
+        <input type="text" name="_gotcha" style="display:none">
+      </div>
       <div>
         <input type="submit" value="Send">
       </div>
@@ -53,18 +53,18 @@
   </main>
 
   <script>
-    var toggleMenu = document.getElementById('toggleMenu');
-    var nav = document.querySelector('nav');
-    toggleMenu.addEventListener(
-      'click',
-      function () {
-        if (nav.style.display == 'block') {
-          nav.style.display = 'none';
-        } else {
-          nav.style.display = 'block';
+      var toggleMenu = document.getElementById('toggleMenu');
+      var nav = document.querySelector('nav');
+      toggleMenu.addEventListener(
+        'click',
+        function () {
+          if(nav.style.display == 'block'){
+            nav.style.display = 'none';
+          }else{
+            nav.style.display = 'block';
+          }
         }
-      });
-  </script>
+      );
+    </script>
 </body>
-
 </html>
