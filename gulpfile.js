@@ -27,30 +27,9 @@ gulp.task('build-css', function(){
   . pipe(concat('main.min.css'))
   . pipe(gulp.dest('dist/css'));
 
-<<<<<<< HEAD
-  //Create a minified version
-  var resMin = gulp.src([
-    'src/scss/main.scss',
-    'src/scss/resume.scss'
-  ])
-  . pipe(scss())
-  . pipe(cleanCSS())
-  . pipe(concat('resume.min.css'))
-  . pipe(gulp.dest('dist/css'));
-
-  return merge(full, min, resMin);
-});
-
-gulp.task('watch', function(){
-  gulp.watch('./src/scss/**/*.scss', ['build-css']);
-
-});
-// ** is recursive saying for all folders and files then * is any file with .scss extension
-=======
   return merge(full,min);
 });
 
 gulp.task('watch', function(){
   gulp.watch('./public/src/scss/**/*.scss', ['build-css']);
 });
->>>>>>> Working
