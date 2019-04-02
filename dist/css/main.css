@@ -2,16 +2,11 @@
 * {
   font-family: 'Open Sans', sans-serif; }
 
-<<<<<<< HEAD
-=======
 /* Creates clean padding and margins*/
->>>>>>> Working
 body {
   padding: 0;
   margin: 0; }
 
-<<<<<<< HEAD
-=======
 h3 {
   margin-top: 5;
   margin-bottom: 0; }
@@ -26,13 +21,10 @@ header {
   color: #fff;
   padding: 0 .5rem 0 1rem; }
 
->>>>>>> Working
 header .logo {
   line-height: 50px;
   font-weight: bold; }
 
-<<<<<<< HEAD
-=======
 main {
   /* Uses a margin to center the page */
   margin: 0 auto;
@@ -41,7 +33,6 @@ main {
   /* Preventing max screen width from exceeding smaller screen sizes*/
   max-width: 100%; }
 
->>>>>>> Working
 nav {
   float: right; }
 
@@ -57,11 +48,7 @@ nav ul li a,
 nav ul li a:link,
 nav ul li a:visited {
   display: inline-block;
-<<<<<<< HEAD
-  padding: 0 .5em;
-=======
   padding: 0 .5rem;
->>>>>>> Working
   color: #fff;
   line-height: 50px;
   text-decoration: none; }
@@ -69,18 +56,6 @@ nav ul li a:visited {
 nav ul li a:hover {
   background: #444; }
 
-<<<<<<< HEAD
-main {
-  margin: 0 auto;
-  width: 960px;
-  max-width: 100%; }
-
-header {
-  height: 50px;
-  background: #000;
-  color: #fff;
-  padding: 0 .5rem 0 1rem; }
-=======
 section p {
   margin-top: 0;
   margin-bottom: 5px; }
@@ -99,44 +74,12 @@ th {
   font-weight: normal;
   font-style: italic;
   padding-right: 1.5rem; }
->>>>>>> Working
 
 .avatar {
   border-radius: 50%;
   float: left;
   margin-right: 1em; }
 
-<<<<<<< HEAD
-.contact-form h1 {
-  margin-top: 0;
-  text-align: center; }
-
-.contact-form {
-  max-width: 300px;
-  margin: 2rem auto 0;
-  background: #ccc;
-  border-radius: 6px;
-  padding: 2rem 1.5rem; }
-
-.contact-form label {
-  display: block;
-  font-weight: bold;
-  font-size: 1.5rem; }
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-  font-size: 2rem;
-  padding: .5rem .25rem;
-  max-width: 100%;
-  margin-bottom: 1rem;
-  box-sizing: border-box; }
-
-.contact-form input[type="submit"] {
-  font-size: 2rem;
-  padding: .5rem 1rem;
-  width: 100%; }
-=======
 .clearfix::after {
   content: "";
   display: table;
@@ -171,23 +114,10 @@ th {
 #resume-h1 {
   margin-bottom: 0px;
   text-align: center; }
->>>>>>> Working
 
 #toggleMenu {
   display: none; }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 420px) {
-  .contact-form input[type="submit"] {
-    display: block;
-    width: 100%; } }
-
-@media only screen and (max-width: 960px) {
-  main {
-    max-width: 90%; }
-  header {
-    position: relative; }
-=======
 @media only screen and (max-width: 960px) {
   header {
     position: relative; }
@@ -195,7 +125,6 @@ th {
   main {
     max-width: 90%; }
 
->>>>>>> Working
   nav {
     position: absolute;
     display: none;
@@ -203,21 +132,11 @@ th {
     top: 50px;
     left: 0;
     right: 0; }
-<<<<<<< HEAD
-  #toggleMenu {
-    display: block;
-    float: right;
-    line-height: 50px; }
-=======
 
->>>>>>> Working
   nav ul li a,
   nav ul li a:link,
   nav ul li a:visited {
     display: block;
-<<<<<<< HEAD
-    border-bottom: 1px solid #777; } }
-=======
     border-bottom: 1px solid #777; }
 
   #toggleMenu {
@@ -226,4 +145,3 @@ th {
     line-height: 50px; } }
 
 /*# sourceMappingURL=main.css.map */
->>>>>>> Working
