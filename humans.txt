@@ -1,0 +1,13 @@
+/* TEAM */
+Owner/Front End Developer: John Falzone.
+Site: jfalzone2005@yahoo.com
+Location: Chicago, IL
+
+/* THANKS */
+Name: John Falzone
+
+/* SITE */
+Last update: 2020/01/29
+Standards: HTML5, CSS3, ES6
+Components: SASS, jQuery
+Software: VS Code
